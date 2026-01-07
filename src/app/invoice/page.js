@@ -2828,7 +2828,7 @@ ${fbrInvoiceNo ? `
     const today = new Date().toISOString().split("T")[0];
 
     const lastMonthDate = new Date();
-    lastMonthDate.setDate(lastMonthDate.getDate() - 30);
+    lastMonthDate.setDate(lastMonthDate.getDate() - 365);
     const minDate = lastMonthDate.toISOString().split("T")[0];
 
 
